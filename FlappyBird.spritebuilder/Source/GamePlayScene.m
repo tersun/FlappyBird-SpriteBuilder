@@ -11,7 +11,7 @@
     [physicsNode addChild:character];
     // Increment the time since the last obstacle was added
   
-    }
+    
     
 }
 
@@ -27,8 +27,7 @@
         [self addObstacle];
         
         // Then reset the timer.
-        timeSinceObstacle = 0.0f;
-    
+        timeSinceObstacle = 0.0f;}    
 }
 
 
