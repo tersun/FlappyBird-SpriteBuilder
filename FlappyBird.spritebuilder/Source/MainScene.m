@@ -43,6 +43,7 @@
     
     int points;
 }
+@end
 
 @interface CGPointObject : NSObject
 {
